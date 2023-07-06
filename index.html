@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FotoBlog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+     <header class="container">
+       <nav>
+        <img  class="logo" src="./assets/camera.svg" alt="Logo câmera">
+        <ul>
+          <li>Home</li>
+          <li class="active">Galeria</li>
+        </ul>
+       </nav>
+       <form>
+         <div class="input-wrapper">
+           <label for="search">Pesquise por imagens e coleções</label>
+           <input id="search" type="text" placeholder="Pesquise por imagens e coleções">
+         </div>
+       </form>
+       <img class="avatar" src="./assets/164916.jpg" alt="">
+     </header>
+
+     <main>
+        <div class="container">
+          <h1>Galeria</h1>
+
+          <section class="gallery">
+            <figure class="item" >
+               <img src="https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="">
+
+               <figcaption class="details">
+                <h2> Sleeping cat</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+               </figcaption>
+            </figure>
+
+            <figure class="item" style="--delay:.6s">
+              <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="">
+
+              <figcaption class="details">
+               <h2>Sorry cat</h2>
+               <div class="tags">
+                 <span>tag</span>
+               </div>
+              </figcaption>
+           </figure>
+
+           <figure class="item" style="--delay:.8s">
+            <img src="https://images.unsplash.com/photo-1577023311546-cdc07a8454d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="">
+
+            <figcaption class="details">
+             <h2>Cat landing</h2>
+             <div class="tags">
+               <span>tag</span>
+             </div>
+            </figcaption>
+         </figure>
+
+         <figure class="item" style="--delay:1s" >
+          <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2F0fGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60" alt="">
+
+          <figcaption class="details">
+           <h2>cat thinking</h2>
+           <div class="tags">
+             <span>tag</span>
+           </div>
+          </figcaption>
+       </figure>
+       <figure class="item" style="--delay:1.2s">
+        <img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2F0fGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60" alt="">
+
+        <figcaption class="details">
+         <h2> Brown cat</h2>
+         <div class="tags">
+           <span>tag</span>
+         </div>
+        </figcaption>
+     </figure>
+     <figure class="item" style="--delay:1.6s">
+      <img src="https://images.unsplash.com/photo-1561948955-570b270e7c36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="">
+
+      <figcaption class="details">
+       <h2>White cat</h2>
+       <div class="tags">
+         <span>tag</span>
+       </div>
+      </figcaption>
+   </figure>
+
+          </section>
+        </div>
+
+     </main>
+
+     
+     <footer class="container">
+      <p>© 2023 - Project Animes </p>
+     </footer>   
+  </div>
+  
+</body>
+</html>
